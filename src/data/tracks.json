@@ -1,0 +1,50 @@
+[
+  {
+    "id": "javascript",
+    "name": "JavaScript",
+    "aliases": ["js", "node"],
+    "modules": [
+      "Fundamentos da linguagem e tipos de dados",
+      "Funções, arrays e objetos",
+      "Módulos, assíncrono e consumo de APIs",
+      "Projeto final: aplicação interativa no navegador"
+    ],
+    "challenges": {
+      "iniciante": "Crie uma função que receba uma lista de números e retorne apenas os valores pares.",
+      "intermediario": "Implemente uma função assíncrona que consulte três URLs e reúna os resultados, tratando falhas individuais.",
+      "avancado": "Projete um mecanismo de cache com expiração e limite de capacidade, incluindo testes para concorrência."
+    }
+  },
+  {
+    "id": "python",
+    "name": "Python",
+    "aliases": ["py"],
+    "modules": [
+      "Sintaxe, variáveis e estruturas de controle",
+      "Coleções, funções e compreensão de dados",
+      "Módulos, exceções e testes automatizados",
+      "Projeto final: ferramenta de análise de dados"
+    ],
+    "challenges": {
+      "iniciante": "Escreva uma função que conte quantas vezes cada palavra aparece em um texto.",
+      "intermediario": "Leia registros de vendas em CSV e gere um resumo por categoria, validando entradas inválidas.",
+      "avancado": "Crie um pipeline concorrente para processar arquivos grandes com memória limitada e erros recuperáveis."
+    }
+  },
+  {
+    "id": "typescript",
+    "name": "TypeScript",
+    "aliases": ["ts"],
+    "modules": [
+      "Tipos, inferência e configuração do projeto",
+      "Interfaces, uniões e narrowing",
+      "Generics e modelagem de domínio",
+      "Projeto final: biblioteca tipada com testes"
+    ],
+    "challenges": {
+      "iniciante": "Modele um tipo para uma tarefa e implemente uma função que filtre tarefas concluídas.",
+      "intermediario": "Crie uma função genérica que agrupe itens por uma chave, preservando os tipos de entrada.",
+      "avancado": "Modele os estados de uma máquina de estados como uniões discriminadas e impeça transições inválidas em tempo de compilação."
+    }
+  }
+]
