@@ -54,6 +54,18 @@ npm test
 
 Os testes cobrem consulta por nome e alias, desafios com nível acentuado, entradas inválidas, certificado fictício e encaminhamento dos três comandos.
 
+## Melhorias realizadas
+
+- Separei o catálogo fictício da lógica dos comandos, facilitando adicionar tecnologias, módulos e desafios.
+- Incluí aliases para as tecnologias e normalização de acentos e maiúsculas/minúsculas na busca.
+- Validei tecnologias, níveis e argumentos, com mensagens de erro que orientam o uso.
+- Deixei explícito que o certificado é fictício e não tem validade oficial.
+- Adicionei testes automatizados com o test runner nativo do Node.js, sem dependências externas.
+
+## Aprendizados
+
+Aprendi que prompts claros e bem elaborados podem facilitar o uso da IA para estruturar um sistema desde o início, com organização, facilidade de manutenção e espaço para crescer em escala. Também aprendi que é importante revisar as sugestões da IA, testar o comportamento e aplicar boas práticas para manter a solução confiável e simples de evoluir.
+
 ## Estrutura do projeto
 
 ```text
